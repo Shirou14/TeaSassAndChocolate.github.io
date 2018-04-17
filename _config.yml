@@ -1,19 +1,19 @@
-title: Jay A.K. Coughlan
-description: My Portfolio
-author: Jay A.K. Coughlan
+title: Tea, Sass, and Chocolate
+description: Tea, Sass, and Chocolate
+author: Jay / Shirou
 logo: ProfileIcon.png
-github: "https://github.com/JayAKCoughlan/JayAkCoughlan.github.io.git"
-about: Programmer and Game Designer
-email: Jay.A.K.Coughlan@gmail.com
+github: "https://github.com/shirou14/TeaSassAndChocolate.github.io.git"
+about: Sit with me, drink some tea, let me tell you a thing.
+email: Shirou14@hotmail.com
 
 baseurl: ""
-url: "https://JayAKCoughlan.github.io"
+url: "https://TeaSassAndChocolate.github.io"
 
-disqus_shortname: JayAKCoughlan
+disqus_shortname: Shirou
 google_analytics: UA-72862926-1
 
 share:
-  twitter_username: JAKCoughlan
+  twitter_username: shirou14
   fb_appid: 000000000000
 
 

@@ -1,6 +1,6 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #35BF59 /*009587*/;
+    background-color: #452B18 /*009587*/;
     padding: 50px 0 15px 0;
     width: 100%;
 }
@@ -50,20 +50,20 @@ p.info a {
     margin: 20px 0 0;
 }
 .icon {
-    background: rgba(0, 100, 0, 0.63);
+    background: #A0FF9A;
     border-radius: 100%;
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #3FE56B/*009688*/;
+    color: #452B18/*009688*/;
     padding: 5px;
     width: 30px;
     height: 30px;
     display: inline-block;
 }
 .icon:hover {
-    color: rgba(0, 100, 0, 0.63);
-    background: #3FE56B/*009688*/;
+    color: #A0FF9A;
+    background: #452B18/*009688*/;
 }
 .menu ul li {
     list-style: none;
@@ -72,7 +72,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #237F3B/*007D72*/;
+    background: #241708/*007D72*/;
 }
 li.current-menu-item:before {
     content: "";
@@ -82,7 +82,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #B8CA28/* B20D14*/;
+    background: #E09D4E/* B20D14*/;
 }
 .menu ul li a {
     font-size: 15px;
@@ -100,7 +100,7 @@ li.current-menu-item:before {
     color: #01c87b;
     font-weight: 300;
 }
-h2.blog-title-pro{color: #fff;}
+h2.blog-title-pro{color: rgb(191, 255, 187);}
 h2.blog-title-pro:after {
     content: "";
     display: block;
@@ -108,7 +108,7 @@ h2.blog-title-pro:after {
     height: 4px;
     margin-top: 16px;
     margin-left: 3px;
-    background: #B8CA28;/*rgba(255, 0, 0, 0.72);*/
+    background: #E09D4E;/*rgba(255, 0, 0, 0.72);*/
 }
 span.tags{ margin: 0 2px;cursor: pointer;display: inline-block;}
 .card .card-image .card-image-headline-custom{

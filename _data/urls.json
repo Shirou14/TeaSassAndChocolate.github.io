@@ -6,16 +6,12 @@
     "layout": "post"
   },
   {
-    "text": "About",
-    "url": "/about",
-    "icon": "fa-comments"
-  },
-  {
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
-  },
-  {
+  }
+]
+  /*{
     "text": "Resume",
     "url": "/resume",
     "icon": "fa-graduation-cap"
@@ -24,9 +20,12 @@
     "text": "Contact Me",
     "url": "/contact",
     "icon": "fa-envelope"
-  }
-]
-
+  }*/
+ /* {
+    "text": "About",
+    "url": "/about",
+    "icon": "fa-comments"
+  },*/
 /*
 ,
   {

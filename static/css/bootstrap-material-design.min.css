@@ -27,7 +27,7 @@ h5, h6 {
 }
 
 a, a:focus, a:hover {
-    color: #35BF59
+    color: #452B18
 }
 
 a .material-icons, a:focus .material-icons, a:hover .material-icons {
@@ -81,7 +81,7 @@ body .container .jumbotron-inverse, body .container .well-inverse, body .contain
 }
 
 body .container .jumbotron-primary, body .container .well-primary, body .container-fluid .jumbotron-primary, body .container-fluid .well-primary {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 body .container .jumbotron-success, body .container .well-success, body .container-fluid .jumbotron-success, body .container-fluid .well-success {
@@ -138,7 +138,7 @@ body .container .jumbotron-danger, body .container .well-danger, body .container
 }
 
 .btn:not(.btn-raised).btn-primary, .input-group-btn .btn:not(.btn-raised).btn-primary {
-    color: #35BF59
+    color: #452B18
 }
 
 .btn:not(.btn-raised).btn-success, .input-group-btn .btn:not(.btn-raised).btn-success {
@@ -176,7 +176,7 @@ body .container .jumbotron-danger, body .container .well-danger, body .container
 }
 
 .btn-group-raised .btn.btn-primary, .btn-group-raised .input-group-btn .btn.btn-primary, .btn.btn-fab.btn-primary, .btn.btn-raised.btn-primary, .input-group-btn .btn.btn-fab.btn-primary, .input-group-btn .btn.btn-raised.btn-primary {
-    background-color: #35BF59;
+    background-color: #452B18;
     color: rgba(255, 255, 255, .84)
 }
 
@@ -335,7 +335,7 @@ body .container .jumbotron-danger, body .container .well-danger, body .container
 }
 
 .btn-group-vertical.open>.dropdown-toggle.btn.btn-primary, .btn-group.open>.dropdown-toggle.btn.btn-primary {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .btn-group-vertical.open>.dropdown-toggle.btn.btn-success, .btn-group.open>.dropdown-toggle.btn.btn-success {
@@ -453,12 +453,12 @@ fieldset[disabled] .form-group.is-focused .checkbox label {
 }
 
 .checkbox input[type=checkbox]:checked+.checkbox-material .check {
-    color: #35BF59;
-    border-color: #35BF59
+    color: #452B18;
+    border-color: #452B18
 }
 
 .checkbox input[type=checkbox]:checked+.checkbox-material .check:before {
-    color: #35BF59;
+    color: #452B18;
     -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
     box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
     -webkit-animation: checkbox-on .3s forwards;
@@ -824,7 +824,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .togglebutton label input[type=checkbox]:checked+.toggle:after {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .togglebutton label input[type=checkbox]:checked+.toggle:active:after {
@@ -872,7 +872,7 @@ fieldset[disabled] .form-group.is-focused .radio label {
     height: 15px;
     width: 15px;
     border-radius: 100%;
-    background-color: #35BF59;
+    background-color: #452B18;
     -webkit-transform: scale3d(0, 0, 0);
     transform: scale3d(0, 0, 0)
 }
@@ -918,11 +918,11 @@ fieldset[disabled] .form-group.is-focused .radio label {
 }
 
 .radio input[type=radio]:checked~.check {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .radio input[type=radio]:checked~.circle {
-    border-color: #35BF59
+    border-color: #452B18
 }
 
 .radio input[type=radio]:checked~.check {
@@ -1141,7 +1141,7 @@ output {
 }
 
 .label.label-primary {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .label.label-success {
@@ -1162,10 +1162,10 @@ output {
 
 .form-control, .form-group .form-control {
     border: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#35BF59), to(#35BF59)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
-    background-image: -webkit-linear-gradient(#35BF59, #35BF59), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
-    background-image: -o-linear-gradient(#35BF59, #35BF59), -o-linear-gradient(#D2D2D2, #D2D2D2);
-    background-image: linear-gradient(#35BF59, #35BF59), linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#452B18), to(#452B18)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#452B18, #452B18), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#452B18, #452B18), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#452B18, #452B18), linear-gradient(#D2D2D2, #D2D2D2);
     -webkit-background-size: 0 2px, 100% 1px;
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
@@ -1232,10 +1232,10 @@ output {
 
 .form-group.is-focused .form-control {
     outline: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#35BF59), to(#35BF59)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
-    background-image: -webkit-linear-gradient(#35BF59, #35BF59), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
-    background-image: -o-linear-gradient(#35BF59, #35BF59), -o-linear-gradient(#D2D2D2, #D2D2D2);
-    background-image: linear-gradient(#35BF59, #35BF59), linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#452B18), to(#452B18)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#452B18, #452B18), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#452B18, #452B18), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#452B18, #452B18), linear-gradient(#D2D2D2, #D2D2D2);
     -webkit-background-size: 100% 2px, 100% 1px;
     background-size: 100% 2px, 100% 1px;
     -webkit-box-shadow: none;
@@ -1246,11 +1246,11 @@ output {
 }
 
 .form-group.is-focused .form-control .material-input:after {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .form-group.is-focused label, .form-group.is-focused label.control-label {
-    color: #35BF59
+    color: #452B18
 }
 
 .form-group.is-focused.label-placeholder label, .form-group.is-focused.label-placeholder label.control-label {
@@ -1775,7 +1775,7 @@ legend {
 }
 
 .navbar {
-    background-color: #35BF59;
+    background-color: #452B18;
     border: 0;
     border-radius: 0
 }
@@ -1921,7 +1921,7 @@ legend {
 }
 
 .navbar, .navbar.navbar-default {
-    background-color: #35BF59;
+    background-color: #452B18;
     color: rgba(255, 255, 255, .84)
 }
 
@@ -1947,12 +1947,12 @@ legend {
 }
 
 .navbar .dropdown-menu li>a:focus, .navbar .dropdown-menu li>a:hover, .navbar.navbar-default .dropdown-menu li>a:focus, .navbar.navbar-default .dropdown-menu li>a:hover {
-    color: #35BF59;
+    color: #452B18;
     background-color: #eee
 }
 
 .navbar .dropdown-menu .active>a, .navbar.navbar-default .dropdown-menu .active>a {
-    background-color: #35BF59;
+    background-color: #452B18;
     color: rgba(255, 255, 255, .84)
 }
 
@@ -2001,7 +2001,7 @@ legend {
 }
 
 .navbar.navbar-primary {
-    background-color: #35BF59;
+    background-color: #452B18;
     color: rgba(255, 255, 255, .84)
 }
 
@@ -2027,12 +2027,12 @@ legend {
 }
 
 .navbar.navbar-primary .dropdown-menu li>a:focus, .navbar.navbar-primary .dropdown-menu li>a:hover {
-    color: #35BF59;
+    color: #452B18;
     background-color: #eee
 }
 
 .navbar.navbar-primary .dropdown-menu .active>a {
-    background-color: #35BF59;
+    background-color: #452B18;
     color: rgba(255, 255, 255, .84)
 }
 
@@ -2235,7 +2235,7 @@ legend {
 
 .dropdown-menu li a:hover {
     background-color: transparent;
-    color: #35BF59
+    color: #452B18
 }
 
 .alert {
@@ -2262,7 +2262,7 @@ legend {
 }
 
 .alert.alert-primary {
-    background-color: #35BF59;
+    background-color: #452B18;
     color: rgba(255, 255, 255, .84)
 }
 
@@ -2328,7 +2328,7 @@ legend {
 }
 
 .progress .progress-bar, .progress .progress-bar.progress-bar-default {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .progress .progress-bar.progress-bar-inverse {
@@ -2336,7 +2336,7 @@ legend {
 }
 
 .progress .progress-bar.progress-bar-primary {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .progress .progress-bar.progress-bar-success {
@@ -2360,7 +2360,7 @@ legend {
 }
 
 .text-primary {
-    color: #35BF59
+    color: #452B18
 }
 
 .text-danger {
@@ -2376,7 +2376,7 @@ legend {
 }
 
 .nav-tabs {
-    background: #35BF59
+    background: #452B18
 }
 
 .nav-tabs>li>a {
@@ -2554,7 +2554,7 @@ legend {
 }
 
 .panel.panel-primary>.panel-heading {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .panel.panel-success>.panel-heading {
@@ -2815,7 +2815,7 @@ hr.on-light {
 }
 
 .slider.noUi-connect, .slider.slider-default.noUi-connect {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .slider.slider-inverse.noUi-connect {
@@ -2823,7 +2823,7 @@ hr.on-light {
 }
 
 .slider.slider-primary.noUi-connect {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .slider.slider-success.noUi-connect {
@@ -2843,7 +2843,7 @@ hr.on-light {
 }
 
 .slider .noUi-connect, .slider.slider-default .noUi-connect {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .slider.slider-inverse .noUi-connect {
@@ -2851,7 +2851,7 @@ hr.on-light {
 }
 
 .slider.slider-primary .noUi-connect {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .slider.slider-success .noUi-connect {
@@ -2871,7 +2871,7 @@ hr.on-light {
 }
 
 .slider .noUi-handle, .slider.slider-default .noUi-handle {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .slider.slider-inverse .noUi-handle {
@@ -2879,7 +2879,7 @@ hr.on-light {
 }
 
 .slider.slider-primary .noUi-handle {
-    background-color: #35BF59
+    background-color: #452B18
 }
 
 .slider.slider-success .noUi-handle {
@@ -2899,7 +2899,7 @@ hr.on-light {
 }
 
 .slider .noUi-handle, .slider.slider-default .noUi-handle {
-    border-color: #35BF59
+    border-color: #452B18
 }
 
 .slider.slider-inverse .noUi-handle {
@@ -2907,7 +2907,7 @@ hr.on-light {
 }
 
 .slider.slider-primary .noUi-handle {
-    border-color: #35BF59
+    border-color: #452B18
 }
 
 .slider.slider-success .noUi-handle {

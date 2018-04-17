@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="well">
+    <div>
+        <h4 class="home-subtitle">{{site.data.projects[page.projectNum].name}}</h4>
+        <div class="row">
+            <div style="float:left" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <table class="table table-responsive table-striped" style="float:left">
+                    <tr>
+                        <td><b>Language</b></td>
+                        <td>
+                            <ul>
+                            {%if site.data.projects[page.projectNum].languages %}
+                                {% for i in site.data.projects[page.projectNum].languages %}
+                                    <li>{{i}}</li>
+                                {% endfor %}
+                            {% endif %}
+
+                            </ul>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td><b>Technologies</b></td>
+                        <td>
+                            <ul>
+                                {%if site.data.projects[page.projectNum].techs %}
+                                    {% for i in site.data.projects[page.projectNum].techs %}
+                                        <li>{{i}}</li>
+                                    {% endfor %}
+                                {% endif %}
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Development Time</b></td>
+                        <td>{{site.data.projects[page.projectNum].startDate}} - {{site.data.projects[page.projectNum].endDate}}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Company</b></td>
+                        <td>{{site.data.projects[page.projectNum].company}}</td>
+                    </tr>
+                </table>
+            </div>
+            <img style="float:right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-responsive" src="/static/img/{{site.data.projects[page.projectNum].image}}"></img>
+        </div>
+        <div style="clear:both"><br></div>
+        <table class="table table-responsive table-bordered">
+            <tr class="success">
+                {% if site.data.projects[page.projectNum].repo != "n/a" %}
+                <td align="center">
+                    <h4><i class="fa fa-github-square"></i> Find the Repo <a href="{{ site.data.projects[page.projectNum].repo }}">Here</a></h4> 
+                </td>
+                {% endif %}
+                {% if site.data.projects[page.projectNum].download != "n/a" %}
+                <td align="center">
+                    <h4><i class="fa fa-file-zip-o"></i> Download the Project <a href="{{ site.data.projects[page.projectNum].download }}">Here</a></h4> 
+                </td>
+                {% endif %}
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div>
+        {{content}}
+    </div>
+</div>

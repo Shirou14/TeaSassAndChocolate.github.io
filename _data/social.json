@@ -4,10 +4,6 @@
     "link": "https://twitter.com/JAKCoughlan"
   },
   {
-    "icon": "fa-linkedin",
-    "link": "https://www.linkedin.com/in/jay-coughlan-39b4a641/"
-  },
-  {
     "icon": "fa-github",
     "link": "https://github.com/Shirou14"
   }
@@ -23,3 +19,7 @@
     "link": ""
   }
   */
+    /*{
+    "icon": "fa-linkedin",
+    "link": "https://www.linkedin.com/in/jay-coughlan-39b4a641/"
+  },*/

@@ -1,0 +1,27 @@
+title: Jay A.K. Coughlan
+description: My Portfolio
+author: Jay A.K. Coughlan
+logo: ProfileIcon.png
+github: "https://github.com/JayAKCoughlan/JayAkCoughlan.github.io.git"
+about: Programmer and Game Designer
+email: Jay.A.K.Coughlan@gmail.com
+
+baseurl: ""
+url: "https://JayAKCoughlan.github.io"
+
+disqus_shortname: JayAKCoughlan
+google_analytics: UA-72862926-1
+
+share:
+  twitter_username: JAKCoughlan
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]

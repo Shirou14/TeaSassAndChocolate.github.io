@@ -1,0 +1,43 @@
+[
+  {
+    "text": "Home",
+    "url": "/",
+    "icon": "fa-home",
+    "layout": "post"
+  },
+  {
+    "text": "About",
+    "url": "/about",
+    "icon": "fa-comments"
+  },
+  {
+    "text": "Projects",
+    "url": "/projects",
+    "icon": "fa-desktop"
+  },
+  {
+    "text": "Resume",
+    "url": "/resume",
+    "icon": "fa-graduation-cap"
+  },
+  {
+    "text": "Contact Me",
+    "url": "/contact",
+    "icon": "fa-envelope"
+  }
+]
+
+/*
+,
+  {
+    "text": "Github",
+    "url": "https://github.com/Shirou14",
+    "icon": "fa-github"
+  },
+  {
+    "text": "XML Feed",
+    "url": "/feed.xml",
+    "icon": "fa-feed",
+    "target": _blank
+  }
+*/

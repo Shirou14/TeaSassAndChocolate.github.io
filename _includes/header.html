@@ -1,0 +1,50 @@
+<div class="header-panel shadow-z-2">
+      <div class="container">
+      <!-- This div contains the author name, avatar, and link/icons-->
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-12">
+           <!-- This section is the Name, and icon-links--> 
+            <div class="row-picture">
+              <a href src="{{ site.baseurl }}/about" style="text-decoration:none">
+                <img id="about" class="logo-img" src="/static/img/{{ site.logo }}" height="75px" width="75px">
+              </a>
+            </div>
+
+            <div class="row-details">
+              <h4 class="list-group-item-heading">{{ site.author }}</h4>
+              <p class="list-group-item-text">{{ site.about }}</p>
+              <p class="list-group-item-text"><i class="fa fa-envelope"></i> {{ site.email }}</p>
+              <p class="list-group-item-text"><i class="fa fa-phone"></i>  {{ site.data.resume[0].phone }}</p>
+              <!--{% include social_links.html %}-->
+            </div>
+            <!-- This is the navigation bar while it's collapsed-->
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-2x fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <!-- this is the page title section-->
+          <div class="col-md-9 col-sm-8 col-xs-12">
+           <a href="/" style="text-decoration:none"> <h2 class="blog-title-pro"> {{ page.title }}</h2></a>
+            
+            <!-- not certain what this does-->
+            <p class="info">
+              {% if page.date %}
+                <span class="time">{{ site.data.projects[page.projectNum].name}}</span>
+              {% endif %}
+              {% if page.categories.size > 0 %}
+                <span class="categories">
+                  &raquo; 
+                  {% for category in page.categories %}
+                    <a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a>
+                    {% if forloop.last == false %}, {% endif %}
+                  {% endfor %}
+                </span>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>

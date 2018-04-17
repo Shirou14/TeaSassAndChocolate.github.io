@@ -1,0 +1,8 @@
+_site/
+!_posts/
+category/
+*~
+!*example-content.md
+!*test-page.md
+!*welcome-to-jekyll.md
+ignore/

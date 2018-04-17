@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<table class="table table responsive">
+    <tr class="success"><td align="center"><h4><i class="fa fa-file-pdf-o"></i> Download the PDF Version <a href="/static/files/{{ site.data.resume[0].file }}">Here</a></h4></td></tr>
+</table>
+<br>
+<div class="well">
+    <center> 
+        <h1>{{ site.author }}</h1>
+        <h3> Email: {{ site.email }} || Cell: {{ site.data.resume[0].phone }} </h3>
+    </center>
+    <hr>
+    <div>
+        {{ content }}
+    </div>
+</div>

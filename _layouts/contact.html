@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="well">
+    <div>
+        {{ content }}
+    </div>
+
+    <form action="https://formspree.io/Jay.A.K.Coughlan@gmail.com" method="POST" id="usrform" class="form-horizontal">
+        <div class="form-group">
+            <div for="usrname" class="col-sm-2 text-left"><h4>Name: </h4></div>
+            
+            <div class="col-sm-10"><input type="text" class="form-control" id="usrname" name="name" placeholder="Harry Potter"></div>
+        </div>
+        <div class="form-group">
+            <div for="usremail" class="col-sm-2 text-left"><h4>Email: </h4></div>
+            <div class="col-sm-10"><input type="email" id="usremail" class="form-control" name="_replyto" placeholder="hPotter@hogwarts.mom"></h4></div>
+        </div>
+        <div class="form-group">
+            <div for="usrsubject" class="col-sm-2 text-left"><h4>Subject: </h4></div>
+            <div class="col-sm-10"><input type="text" id="usrsubject" class="form-control" name="subject" placeholder="Missing potions class"></h4></div>
+        </div>
+        <div class="form-group">
+            <div for="message" class="col-sm-12 text-left"><h4>Message:</h4></div>
+            <div class="col-sm-12 panel panel-success"><textarea class="form-control" rows="6" id="message" name="message" form="usrform"></textarea></div><br>
+        </div>
+        <input class="btn btn-success btn-lg btn-block" type="submit" value="Send">
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks" />
+    </form>
+</div>
